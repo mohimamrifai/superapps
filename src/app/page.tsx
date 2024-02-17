@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <div className="py-5 border-b-[0.5px] border-gray-300">
         <h2 className="text-lg font-semibold mb2">About Me</h2>
-        <p className="font-medium text-gray-700">
+        <p className="font-normal text-gray-700">
         I really enjoy coding and am enthusiastic about the world of web development technology. I have experience working on full-stack applications, particularly using JavaScript/TypeScript.
         </p>
       </div>
@@ -54,7 +54,7 @@ export default function Home() {
         <h2 className="text-lg font-semibold mb-2">My Articles</h2>
         <CorouselProjects />
       </div>
-      <div className="pt-5 pb-1 border-b-[0.5px] border-gray-300">
+      <div className="pt-5 pb-5 border-b-[0.5px] border-gray-300">
         <h2 className="text-lg font-semibold mb-2">My Skilss</h2>
         <Skills />
       </div>
